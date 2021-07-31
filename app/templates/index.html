@@ -1,0 +1,22 @@
+{% extends "layout.html" %}
+
+{% block head %}
+{{ super() }}
+{% endblock %}
+
+{% block header %}
+{{ super() }}
+{% block title %}Flask App{% endblock %}
+{% endblock %}
+
+{% block content %}
+<section class="main">
+  <h1 class="title">Hello, World!</h1>
+  <hr>
+  <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore culpa, ea labore temporibus deserunt a consectetur assumenda nemo veniam animi, pariatur debitis tempore eos quasi. Nostrum recusandae maiores natus exercitationem!</p>
+</section>
+{% endblock %}
+
+{% block footer %}
+{{ super() }}
+{% endblock %}
